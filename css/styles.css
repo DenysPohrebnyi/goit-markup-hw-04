@@ -391,9 +391,7 @@ margin-bottom: 8px;
 
 .footer-container {
     display: flex;
-    margin-right: 120px;
     align-items: baseline;
-    gap: 120px;
 }
 
 .footer .logo {
@@ -412,12 +410,16 @@ margin-bottom: 8px;
     font-weight: 500
 }
 
+.footer-content {
+    margin-right: 120px;
+}
+
 .social-title {
     margin-bottom: 16px;
     color: #FFFFFF;
 }
 
-.footer-social-iist {
+.footer-social-list {
     display: flex;
     gap: 16px;
 }
